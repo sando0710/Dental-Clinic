@@ -1,0 +1,176 @@
+/* reset.css */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,
+img {
+  border:0;
+}
+/*
+  TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style:normal;
+  font-weight:normal;
+}
+/* resset.css */
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.top-content {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(109, 236, 188);
+}
+
+.left-content {
+  border: 1px solid rgb(109, 236, 188);
+  width: 250px;
+  background-color: ;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.left-content h3 {
+  color: white;
+  background-color: rgb(109, 236, 188);
+  height: 5vh;
+}
+
+.left-content li {
+  border-bottom: 1px solid rgb(109, 236, 188);
+  height: 35px;
+  width: 150px;
+  margin: 0px 25px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.leftdown-content {
+  border: 1px solid rgb(109, 236, 188);
+  width: 250px;
+  background-color: ;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.leftdown-content h3 {
+  color: white;
+  background-color: rgb(109, 236, 188);
+  height: 5vh;
+}
+
+.leftdown-content li {
+  border-bottom: 1px solid rgb(109, 236, 188);
+  height: 35px;
+  width: 150px;
+  margin: 0px 25px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+main {
+  display: flex;
+  background: whitesmoke;
+}
+
+.right-content {
+  border-top: 20px solid white;
+}
+
+.rightdown-content {
+  height: 35px;
+  /* width: 150px; */
+  margin: 0px 25px;
+  list-style: none;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.rightdown-content li {
+  display: flex;
+  background: white;
+}
+
+.rightdown-content-list {
+  width: 200px;
+}
+
+.rightdown-content-lists{
+  width: 450px;
+  font-size: 14px;
+}
+
+footer {
+  margin: 50px 260px;
+  /* background-color: #515151; */
+  text-align: center;
+  color:black;
+}
+
+.footer-contents{
+  /* height: 50px; */
+  list-style: none;
+  display: flex;
+  background: rgb(109, 236, 188);
+  /* position: absolute;/
+  bottom: 0; */
+  color: white;
+}
+
+.footer-contents li {
+  padding: 0px 20px;
+}
+
+.footer-add{
+  list-style: none;
+  text-align: right;
+  border-bottom: 3px solid rgb(109, 236, 188)
+}
