@@ -148,39 +148,37 @@ main {
   list-style: none;
   padding-top: 10px;
 }
-
+/* メイン */
 main {
   display: flex;
-  background: whitesmoke;
+  flex-direction:column;
+  width: 100%;
 }
 
 .right-content {
-  border-top: 20px solid white;
+  order: 1;
+}
+
+.side-bar {
+  width: 100%;
+}
+
+.side-bar > nav {
+  margin: 0 10px;
 }
 
 .rightdown-content {
-  height: 35px;
-  /* width: 150px; */
-  margin: 0px 25px;
-  list-style: none;
-  padding-top: 10px;
-  justify-content: space-between;
+  width: 100%;
+  margin: auto;
 }
 
-.rightdown-content li {
-  display: flex;
-  background: white;
+.rightdown-content-image{
+  width: 97%;
+  height: 97%;
+  margin: 0 10px;
 }
 
-.rightdown-content-list {
-  width: 200px;
-}
-
-.rightdown-content-lists{
-  width: 450px;
-  font-size: 14px;
-}
-
+/* メイン */
 /* フッター */
 footer {
   width: 100%;
