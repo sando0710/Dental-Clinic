@@ -86,8 +86,17 @@ body {
 
 main {
   width: 920px;
-  margin: auto;
+  margin: 15px auto;
+  display: flex;
+}
 
+
+.side-bar {
+  width: 260px;
+}
+
+.side-bar > nav {
+  height: 250px;
 }
 
 .left-content {
@@ -172,37 +181,22 @@ main {
   font-size: 14px;
 }
 
+/* フッター */
 footer {
-  width:920px;
-  margin: 50px auto 10px;
-  /* background-color: #515151; */
-  text-align: center;
-  color:black;
+  width: 100%;
 }
 
-.footer-contents{
-  /* height: 50px; */
-  padding: 5px;
-  border-radius: 10px;
-  list-style: none;
-  display: flex;
-  background: rgb(108,198,196);
-  /* position: absolute;/
-  bottom: 0; */
-  color: white;
+.footer-content > ul {
+  margin: 0 10px;
 }
 
-.footer-contents li {
-  padding: 0px 20px;
+.footer-content > ul > li {
+  display: block;
 }
 
-.footer-add{
-  padding: 14px;
-  list-style: none;
-  text-align: right;
-  border-bottom: 3px solid rgb(108,198,196);
+.footer-info p {
+  margin-right: 10px;
+  display: block;
 }
-
-.copyright {
-  font-size: 13px;
+/* フッター */
 }
